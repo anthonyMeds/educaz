@@ -1,6 +1,6 @@
 
-
-/* MEDIA  760 - 1180   e  > 1200px*/
+/* MEDIA QUERIE DE TODAS AS PÁGINAS, DEFAULT = MOBILE */
+/* MEDIA de  760 - 1180   e  > 1200px*/
 
 /* TABLET - 760 - 1180px */
 @media screen and (max-width: 1199px) and (min-width: 768px) {
