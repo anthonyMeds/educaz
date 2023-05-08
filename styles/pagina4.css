@@ -1,0 +1,28 @@
+
+
+/* Página 4 */
+
+.pagina-4{
+    /* border: 2px solid red; */
+    max-width: 100vw;
+    position: relative;
+    display: flex;
+}
+
+.pagina-4 > img {
+    /* border: 2px solid red; */
+    max-width: 100%;
+    height: auto;
+}
+
+.pagina-4 > a {
+    /* border: 2px solid red; */
+    font-size: 0.8rem;
+    font-family: var(--fonte_primaria);
+    max-width: 90vw;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    text-decoration: none;
+    color: #000000;
+}

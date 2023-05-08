@@ -1,0 +1,221 @@
+
+
+/* Página 2 */
+#o-que-fazemos{
+    /* border: 2px solid red; */
+    width: 100vw;
+    max-width: 100vw;
+}
+
+.cabecalho__2{
+ 
+    width: 100vw;
+   /* margin: 0 auto; centralizar 80vw*/
+    max-width: 100vw;
+    height: 10vh;
+    max-height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* eixo y - centralizar*/
+    justify-content: center; /* eixo x esquerda*/
+    
+
+}
+
+.cabecalho__2__conteudo{
+    /* border: 2px solid red; */
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--fonte_primaria);
+}
+/* main 2 */
+
+.texto-fundo-preenchido{
+    
+    width: 100vw; /*largura fundo do texto preenchido*/
+    /* margin: 0 auto; */
+    max-width: 100vw;
+    height: 15vh;
+    max-height: 15vh;
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-fundo-preenchido-conteudo{
+    font-family: var(--fonte_primaria);
+    font-size: 1rem;
+    font-weight: 600;
+    width: 90%;
+    max-width: 100%;
+    text-align: center;
+    line-height: 1.2;
+}
+/* Section galeria */
+.galeria-flexbox{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 80vw;
+    margin: 0 auto; /*centralizar com a distância máxima*/
+}
+
+
+.galeria-flexbox > div{
+    /* border: 2px solid red; */
+    /*flex: 1 1 120px; flex grow, shrink e basis*/
+    margin: 20px; /*espaçamento entre blocos */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.galeria-flexbox > div > img{
+    /* border: 2px solid red; */
+    max-width: 40%;
+    /* border: 2px solid red; */
+    margin: 0 auto; /*centralizar horizontalmente com relação ao container pai*/
+}
+
+.galeria-flexbox > div > p{
+    /* border: 2px solid red; */
+    font-family: var(--fonte_primaria);
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.1;
+
+}
+/* Section 2 */
+.texto-fundo-preenchido-2{
+    width: 100vw; /*largura fundo do texto preenchido*/
+    /* margin: 0 auto; */
+    max-width: 100vw;
+    height: 15vh;
+    max-height: 15vh;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Section 3 */
+.texto-fundo-preenchido-3{
+    width: 100vw; /*largura fundo do texto preenchido*/
+    /* margin: 0 auto; */
+    max-width: 100vw;
+    height: 15vh;
+    max-height: 15vh;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-pagina-2 {
+    /* border: 2px solid red; */
+    max-width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.meu-video {
+    /* border: 2px solid red; */
+    width: 100%;
+    max-width: 100vw;
+    height: 45vh;
+    max-height: auto;
+    margin-bottom: 30px; /*espaçamento do vídeo para o texto*/
+}
+/* fim página 2 */
+/* Estilos para o cabeçalho */
+.texto-principal-e-imagem {
+    width: 100vw;
+   /* margin: 0 auto; centralizar 80vw*/
+    max-width: 100vw;
+    height: 25vh;
+    max-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* eixo y - centralizar*/
+    justify-content: center; /* eixo x esquerda*/
+    background-color: var(--cor-cinza);
+
+  }
+  
+  .texto-principal-conteudo {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    border-radius: 10px;
+    max-width: 80%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--fonte_primaria);
+    font-weight: 600;
+    line-height: 1.3;
+
+  }
+  
+  .imagem-texto-principal-conteudo {
+    /* border: 2px solid red; */
+    width: 50%;
+    max-width: 50%;
+    transform: rotate(180deg);
+  }
+  
+  /* Estilos para as seções com texto e imagem */
+.galeria-wrapper{
+    /* border: 2px solid red; */
+    background-color: var(--cor-cinza);
+    max-width: 100vw;
+    padding-bottom: 30px; /*margem de respiro para proxima página*/
+}
+
+  .galeria-flexbox-2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .galeria-flexbox-2 > div {
+    /*flex: 1 1 250px; flex grow, shrink e basis*/
+    background-color: var(--cor-5);
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin: 15px; /*espaçamento entre blocos */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%; /*largura da div verde para ficar alongada*/
+ 
+  }
+
+  .galeria-flexbox-2 > div > img{
+    max-width: 25%;
+    margin: 13px auto; /*alinhar imagem*/
+
+  }
+
+
+  .galeria-flexbox-2 > div > p{
+    text-align: center;
+    font-size: 1rem;
+    font-family: var(--fonte_primaria);
+    margin: 0 auto;
+    max-width: 80%;
+    margin-bottom: 20px;
+    line-height: 1.3; /*espaçamento da linha no texto*/
+
+  }

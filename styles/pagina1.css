@@ -1,0 +1,102 @@
+
+/* PÁGINA 1 */
+#pagina-1{
+    height: 65vh;
+    max-width: 100vw;
+    background-image: url('../assets/educaz-banner-home.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* overflow-x: hidden; 
+    overflow-y: hidden; */
+    /* Conteúdo principal */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* Cabecalho página 1 */
+.cabecalho{
+     /* border: 2px solid red; */
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+.cabecalho > img{
+    width: 150px;
+    height: 80px;
+    /* margin: 0 auto; */
+    display: inline-block;
+}
+
+.cabecalho__menu ul {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.cabecalho__menu__link a {
+    /* border: 2px solid red; */
+    font-family: var(--fonte_primaria);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--cor-quaternaria);
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.cabecalho__menu__link:hover a {
+   color: var(--cor-terciaria);
+}
+
+/* Main página 1 */
+.Apresentacao {
+    /* border: 2px solid rgb(208, 255, 0); */
+    max-width: 100vw;
+    height: 100%; /*definir altura do conteudo principal*/
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+
+.apresentacao_conteudo {
+    width: 90%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.apresentacao__conteudo__titulo{
+    width: 90%;
+    /* border: 2px solid red; */
+    text-align: center;
+    font-family: var(--fonte_primaria);
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 20px; /*margem de respiro imagem central e seta*/
+}
+
+.apresentacao__imagem {
+    /* border: 2px solid red; */
+    width: 60%;
+    max-height: auto; /*reduzir o tamanho da imagem junto com a tela = responsividade*/
+}
+
